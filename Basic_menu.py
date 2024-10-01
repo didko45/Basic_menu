@@ -35,7 +35,7 @@ while should_continue:
             name_string = name_output.format(name)
             isOwner = "Dilyan" in name_string
             if not isOwner:
-                print('Ei pedal kuv si ti e? ')    
+                print('Ти не си собственика? ')    
                 print_each_letter(name)
         case 3:
             print(age_out.format(age))
